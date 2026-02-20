@@ -14,16 +14,10 @@ IR_PIN 5
 
 
 void setup() {
-
-    // TODO 3:
-    // Initialize Serial communication (9600 baud rate)
-
-    // TODO 4:
-    // Configure IR pin as INPUT
-
-    // TODO 5:
-    // Print system initialization message
+    pinMode(IR_PIN, INPUT);
+    Serial.begin(9600);
 }
+
 
 void loop() {
 
